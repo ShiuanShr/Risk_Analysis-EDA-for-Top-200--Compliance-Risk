@@ -1,6 +1,6 @@
 **Preface:**
 
-We can only share very limited demo (currently set as private)  to prove the existance of the project because it contain clients personal information (trading amount, location, frequency, pattern cluster, trading cryptocurencies, etc.) Even though we have unlabeledized the data and replaced the privacy information with eligible ID, it still only allowed to be used for the purpose of user experience improvement or for internal AML regulartory. Last but not the least, due to the current GDPR policy in our EU clients, the automatic profiling is no longer allowed without additional consent papers, not to mentioned for data analyst's personal project.
+We can only share very limited demo (stored at private drive (leo.shr@iss.nthu), kindly ask for permission)  to prove the existance of the project because it contain clients personal information (trading amount, location, frequency, pattern cluster, trading cryptocurencies, etc.) and the project result belongs to company. Even though we have unlabeledized the data and replaced the privacy information with eligible ID, it still only allowed to be used for the purpose of user experience improvement or for internal AML regulartory. Last but not the least, due to the current GDPR policy in our EU clients, the automatic profiling is no longer allowed without additional consent papers, not to mentioned for data analyst's personal project.
 
 However, as a leader of this project, we could briefly talk about how we implement the project.
 
