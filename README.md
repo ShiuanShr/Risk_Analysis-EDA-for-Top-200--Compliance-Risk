@@ -15,9 +15,13 @@ It was a massive scale dataset. Therefore, we randomly picked one country's data
 
 2. Most of the data are noises, therefore, a certain degree of feature engineer helps. However, mostly, the important variables simply depend on what AML expertise told us.
 
-3. For the part of data cleaning, the previous agent's markdowns were incomplete and disaccord due to the internal handover issues. It require advanced text mining skills, which was the skill I was lack of. If I have the opportunities to spearhead the resemble project again, I will put more emphasis on the text preprocessing.( e.g, different language document and personal informations.)
+3. It contains lots of idle accounts, which trading frequency is almost equal to 0. This kind of account increased the sparse level of data. But they can not be discarded due to the probability of the providers of dummy accounts. Moreover, the criminal account would not exist alone, mostly, they would use plenty of dummy accounts to lower the transparency of cash flow  to escape from criminal investigation. And have to say, under the property of blockchain, it would be almost unlikely to trace for outsiders (Gov AML related Competent Authority) if the investigators or risk analysts in crypto exchange are neglected of duty. Back to the topic, what we did is trying to point out 'sets' of accounts having highly suspicious trading relationships from million trading records and turn over the 'set' of labeled accounts to investigators for further monitored.
 
-4. The reported illegal account's trading records were classified into several clusters as the suspicious trading patterns(A set). Then we leverage K means++ to add an additional variable called cluster number for the monthly trading dataset after cleaning. After reshaping the dataset and grouping them as [countries - user base] (B set), we are able to utilize these two sets of data for further analysis.
+
+4. For the part of data cleaning, the previous agent's markdowns were incomplete and disaccord due to the internal handover issues. It require advanced text mining skills, which was the skill I was lack of. If I have the opportunities to spearhead the resemble project again, I will put more emphasis on the text preprocessing.( e.g, different language document and personal informations.)
+
+5. The reported illegal account's trading records were classified into several clusters as the suspicious trading patterns(A set). Then we leverage K means++ to add an additional variable called cluster number for the monthly trading dataset after cleaning. After reshaping the dataset and grouping them as [countries - user base] (B set), we are able to utilize these two sets of data for further analysis.
+
 
 
 **Here are several approaches and insights we adopted:**
@@ -31,6 +35,4 @@ It was a massive scale dataset. Therefore, we randomly picked one country's data
 4. We set the different baselines for adjusting under the announcement of FATF. For example, for the user whose current living location (provided as KYC documents for current 3 months proof of living, ex, the electrical bill for matched Residential address and matched client full name) belongs to jurisdictions list get a higher baseline of risk. The safer countries get a lower baseline. The constant would fluctuate only between (0+,2-), and considered as a multiplier. Moreover, we use Selenium to automatically updated the project backend jurisdictions list to avoid the casting off from the FATF.
 
 5. Link analysis should be applied on the suspicious cluster. However, we do not have enough time for that part.
-
-6. It contains lots of idle accounts, which trading frequency is almost equal to 0. This kind of account increased the sparse level of data. But they can not be discarded due to the probability of the providers of dummy accounts. Moreover, the criminal account would not exist alone, mostly, they would use plenty of dummy accounts to lower the transparency of cash flow  to escape from criminal investigation. And have to say, under the property of blockchain, it would be almost unlikely to trace for outsiders (Gov AML related Competent Authority) if the investigators or risk analysts in crypto exchange are neglected of duty. Back to the topic, what we did is trying to point out 'sets' of accounts having highly suspicious trading relationships from million trading records and turn over the 'set' of labeled accounts to investigators for further monitored.
 
