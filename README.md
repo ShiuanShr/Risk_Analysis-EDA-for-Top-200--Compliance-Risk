@@ -6,7 +6,7 @@ However, as a leader of this project, we could briefly talk about how we impleme
 In the begining, it was EDA for risk report without precedent case.
 The raw data is extremely dirty beyond our expectation.
 After complex data cleaning process, and text mining preprocessing, we get  relative 'cleaned' monthly-based trading record datasets for over 50 countries Bitfinex served.
-It was a massiveb scale dataset. Therefore, we random picked one country's dataset as the first profiling target and then applied the following data process on the rest of them after we construct the mature data pipeline.
+It was a massive scale dataset. Therefore, we random picked one country's dataset as the first profiling target and then applied the following data process on the rest of them after we construct the mature data pipeline.
 
 To be brief, here are some illustrations for this tedious hunting game:
 
