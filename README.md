@@ -34,5 +34,6 @@ It was a massive scale dataset. Therefore, we randomly picked one country's data
 
 4. We set the different baselines for adjusting under the announcement of FATF. For example, for the user whose current living location (provided as KYC documents for current 3 months proof of living, ex, the electrical bill for matched Residential address and matched client full name) belongs to jurisdictions list get a higher baseline of risk. The safer countries get a lower baseline. The constant would fluctuate only between (0+,2-), and considered as a multiplier. Moreover, we use Selenium to automatically updated the project backend jurisdictions list to avoid the casting off from the FATF.
 
-5. Link analysis should be applied on the suspicious cluster. However, we do not have enough time for that part.
+5. Link analysis should be applied on the suspicious cluster. However, we do not have enough time and information for that part.
 
+6. The account with opened access  of FAIT Token like USDT could be money mule. And this kind of account might use the service of ' platform landing & borrow' to reach the goal of money laundry. With this concern, we have noticed our senior manager for the potential Money laundry risk, and the respone was " The FAIT account were subjected to stricter scrutiny than the normal accounts. And each business has its own risk appetite, what we do is to make a balance between the acceptable risk and the bargain."
