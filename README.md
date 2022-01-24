@@ -1,5 +1,5 @@
 Preface:
-We can only share partial final performance to prove the existance of the project because it contain clients personal information (trading amount, location, frequency, pattern cluster, trading cryptocurencies, etc.) Even though we have unlabeledized the data and replaced the privacy information with eligible ID, it still only allowed to improve the user experience under the  local AML regulartory. Last but not the least, due to the current GDPR policy in our EU clients, the automatic profiling is no longer allowed without additional consent papers.
+We can only share partial final performance to prove the existance of the project because it contain clients personal information (trading amount, location, frequency, pattern cluster, trading cryptocurencies, etc.) Even though we have unlabeledized the data and replaced the privacy information with eligible ID, it still only allowed to be used for the purpose of  user experience improvement or for internal AML regulartory. Last but not the least, due to the current GDPR policy in our EU clients, the automatic profiling is no longer allowed without additional consent papers.
 
 However, as a leader of this project, we could briefly talk about how we implement the project.
 
